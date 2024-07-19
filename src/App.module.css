@@ -1,0 +1,21 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+}

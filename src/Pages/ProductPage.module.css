@@ -1,0 +1,58 @@
+.container {
+  padding: 20px;
+  display: flex;
+}
+
+.breadcrumb {
+  margin-bottom: 20px;
+}
+.productPage{
+    display: flex;
+}
+.productDetail {
+  display: flex;
+}
+
+.ProductImg{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.details {
+  flex: 2;
+  margin-left: 20px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.colors {
+  display: flex;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid #000;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}

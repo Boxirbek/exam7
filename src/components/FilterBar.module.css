@@ -1,0 +1,63 @@
+/* .filterBar {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.priceOption {
+    display: block;
+    flex-direction: row;
+}
+
+    .colorOptions {
+    gap: 10px;
+    }
+
+.colorOptions label {
+  margin-right: 10px;
+}
+
+h4 {
+    font-size: 25px;
+  margin-bottom: 10px;
+} */
+
+.filterBar {
+  /* display: flex; */
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  width: 450px; /* Adjusted width for better layout */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.priceOption, .colorOptions {
+  margin-bottom: 20px; /* Space between sections */
+}
+
+.priceOption label, .colorOptions label {
+  display: block; /* Ensures labels are stacked vertically */
+  margin-bottom: 10px; /* Space between radio/checkboxes */
+}
+
+.priceOption input[type="radio"], .colorOptions input[type="checkbox"] {
+  margin-right: 8px; /* Space between checkbox/radio and label text */
+}
+
+h4 {
+  font-size: 18px; /* Slightly smaller font size for headings */
+  margin-bottom: 10px;
+  font-weight: 600; /* Slightly bolder text */
+  color: #333; /* Darker text color for better readability */
+}
+
+/* Optional: add hover effect for better user experience */
+label:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px; /* Rounded corners on hover */
+  /* padding: 5px; */
+}
+
